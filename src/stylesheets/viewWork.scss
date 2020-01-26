@@ -1,0 +1,26 @@
+.button {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.button__link{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;    
+    border: 2px solid #fff;
+    color: lightgrey;
+    box-sizing: inherit;
+    padding: 5px;
+    display: inline-block;
+    font-size: 16px;
+    transition: all .5s;
+    height: 40px;
+    width: 190px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-arrow-right {
+    color: lightgray;
+    align-items: center;
+}

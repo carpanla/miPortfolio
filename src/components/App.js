@@ -1,6 +1,7 @@
 import React from 'react';
-import '../stylesheets/App.css';
+import '../stylesheets/App.scss';
 import Title from './Title';
+import ViewWork from './ViewWork';
 
 class App extends React.Component {
   // constructor(props) {
@@ -9,7 +10,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <Title />
+      <div>
+        <Title />
+        <ViewWork />
+      </div>
     );
   }
 }

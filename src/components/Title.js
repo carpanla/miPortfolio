@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/title.css';
+import '../stylesheets/title.scss';
 
 function Title(){
     return(
@@ -8,9 +8,6 @@ function Title(){
         </div>
     )
 }
-
-
-
 
 export default Title;
 
