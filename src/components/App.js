@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
 import '../stylesheets/App.scss';
-import Title from './Title';
-import ViewWork from './ViewWork';
+import Landing from './Landing';
+import MainPage from './MainPage';
+
 
 class App extends React.Component {
   // constructor(props) {
@@ -11,8 +13,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Title />
-        <ViewWork />
+        <Switch>
+          <Route exact path="/" component={Landing} />
+          <Route path="/mainpage" component={MainPage} />
+        </Switch>
       </div>
     );
   }
