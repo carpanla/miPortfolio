@@ -1,5 +1,7 @@
 import React from 'react';
 import '../stylesheets/mainPage.scss';
+import Header from './Header';
+
 
 
 class MainPage extends React.Component {
@@ -9,8 +11,8 @@ class MainPage extends React.Component {
 
   render() {
     return (
-      <div>
-       holi
+      <div className="container">
+          <Header />
       </div>
     );
   }

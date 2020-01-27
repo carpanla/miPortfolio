@@ -1,0 +1,29 @@
+.list{
+    box-sizing: border-box;
+    margin: 0 auto;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 15%;
+
+    &__element{
+        text-decoration: none;
+        margin: 5px;
+        padding: 10px;
+        font-size: 22px;
+        font-weight: 600;
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;    
+        border: 2px solid #fff;
+        transition: all .5s;
+        height: 30px;
+        width: 190px;
+        cursor: pointer;
+    }
+}
