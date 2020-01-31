@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/hello.scss';
+// import '../stylesheets/hello.scss';
 
 function Hello(){
     return(

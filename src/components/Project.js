@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../stylesheets/components/project.scss';
 
 const Project = props => {
   return (

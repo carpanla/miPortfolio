@@ -1,9 +1,8 @@
 import React from 'react';
 import '../stylesheets/components/mainPage.scss';
-import Projects from '../data/Projects';
+import DataProjects from '../data/DataProjects';
 import Header from './Header';
 import ProjectList from './ProjectList';
-import Project from './Project';
 
 
 
@@ -12,7 +11,7 @@ class MainPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      Data: Projects
+      allProjects: DataProjects
     };
   }
 

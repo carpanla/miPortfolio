@@ -1,10 +1,10 @@
-[
+const DataProjects = [
     {
         "name": "Contact us!",
         "description": "Maquetación de una web responsive con HTML5 y CSS3, utilizando Flexbox. El trabajo se desarrollaba por sprints y con filosofía agile.",
         "repoLink": "https://github.com/carpanla/contact-us-skylabers",
         "pagesLink": "http://beta.adalab.es/contact-us-skylabers/",
-        "image": "../images/skylabers.jpg",
+        "image": require('../images/skylabers.JPG'),
         "id": "1"
     },
     {
@@ -12,7 +12,7 @@
         "description": "Web para generar tarjetas de visita personalizadas. Desarrollada con HTML5, CSS3/SASS, JavaScript ES6 y Git en su primera versión, y posteriormente adaptado a REACT.",
         "repoLink": "https://github.com/carpanla/project-promo-h-module-2-team-4-afternoon",
         "pagesLink": "https://marianalfr.github.io/awesome-profile-cards-react/",
-        "image": "../images/cocolab.jpg",
+        "image": require('../images/cocolab.JPG'),
         "id": "2"
     },
     {
@@ -20,7 +20,7 @@
         "description": "A partir del proyecto 'Awesome Profile Cards' realizado por otro equipo lo migramos a REACT.",
         "repoLink": "https://github.com/carpanla/project-promo-h-module-3-team-2-afternoon",
         "pagesLink": "https://marianalfr.github.io/awesome-profile-cards-react/",
-        "image": "../images/apcReact",
+        "image": require('../images/apcReact.JPG'),
         "id": "3"
     },
     {
@@ -28,7 +28,7 @@
         "description": "Directorio de personajes de Rick&Morty. La información sobre ellos se obtiene con una petición a una API pública.",
         "repoLink": "https://github.com/carpanla/modulo-3-evaluacion-final-carpanla",
         "pagesLink": "http://beta.adalab.es/modulo-3-evaluacion-final-carpanla/#/",
-        "image": "../images/rickmorty.jpg",
+        "image": require('../images/rickmorty.JPG'),
         "id": "4"
     },
     {
@@ -36,8 +36,11 @@
         "description": "Sencillo juego desarrollado con javascript y CSS",
         "repoLink": "https://github.com/carpanla/evaluacion-intermedia-modulo-2-carpanla",
         "pagesLink": "http://beta.adalab.es/evaluacion-intermedia-modulo-2-carpanla/",
-        "image": "../images/numero.jpg",
+        "image": require('../images/numero.JPG'),
         "id": "5"
     }
 ]
+
+export default DataProjects;
+
 
