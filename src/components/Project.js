@@ -10,7 +10,7 @@ const Project = props => {
       </div>
       <h2 className="proy_name">{props.name}</h2>
       <h3 className="proy_description">{props.description}</h3>
-      <div className="proy__links">
+      <div className="proy_links">
         <a href={props.repoLink} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github-alt"></i>
         </a>
